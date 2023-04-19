@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const morgan = require("morgan");
-const products = require("./routes/products");
+const products = require("./routes/product");
 const cors = require("cors");
 const ProductModel = require("./models/productModel");
 
