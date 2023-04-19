@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("tiny"));
 app.use("/products", products);
-
+// dette er eb kommentar
 app.get("/", function (req, res) {
   // Provide a basic HTML page on the root of the server
   res.write("<!DOCTYPE html>");
